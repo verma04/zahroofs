@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve"
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+, "theme/theme.js", "pages/_app.tsx", "pages/_document.js", "pages/_document.j", "components/caseStudy/section4/Section4", "components/contactus/section/Section.js", "theme/colors.js", "components/caseStudy/caseStudiesCategory/section3/Section3.js", "components/caseStudy/caseStudiesCategory/section2/Section.js", "components/caseStudy/caseStudiesCategory/section/Section.js", "components/caseStudy/caseStudiesCategory/heroSection/heroSection.js", "pages/caseStudies/[id]/index.js", "components/caseStudy/caseStudiesSubCategory/heroSection/heroSection.js", "components/caseStudy/caseStudiesSubCategory/section3/Section3.js", "pages/caseStudies/[id]/[cat]/index.js", "pages/caseStudies/[id]/[cat]/index.js", "pages/careers/[id].jd", "components/career/section2/Section.js", "components/career/carrer.jsx", "components/career/carrerLsiting/section/Section.js", "components/career/carrerLsiting/heroSection/heroSection.js", "components/career/carrerLsiting/List.js", "pages/caseStudies/index.jsx", "pages/caseStudies/index.js", "components/news/section/Section.js", "components/news/heroSection/heroSection.js", "components/news/news.js"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

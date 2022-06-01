@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://zahroofvalves.com/
+
+# Sitemaps
+Sitemap: https://zahroofvalves.com/sitemap.xml

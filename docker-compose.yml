@@ -1,0 +1,11 @@
+version: '2'
+services:
+  frontendappw:
+    build:
+      context: ./
+    ports:
+      - "3000:3000"
+    container_name:   frontendappw
+    stdin_open: true
+    volumes:
+       - .:/usr/src/zahroof
